@@ -1,5 +1,4 @@
-package com.example.demo.service;
-
+package com.bigdataindexing.project.service;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -9,7 +8,7 @@ import org.json.JSONObject;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ETagService {
+public class ETagManager {
 
     public String getETag(JSONObject json) {
 
